@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.023
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 0.67}
@@ -136075,6 +136075,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3675111501185998633, guid: e0a781c065b735b41a847089a684852f,
         type: 3}
+      propertyPath: m_Cookie
+      value: 
+      objectReference: {fileID: 2800000, guid: ac661a15f914e6542b26e13b8d91ddbb, type: 3}
+    - target: {fileID: 3675111501185998633, guid: e0a781c065b735b41a847089a684852f,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675111501185998633, guid: e0a781c065b735b41a847089a684852f,
+        type: 3}
       propertyPath: m_SpotAngle
       value: 50
       objectReference: {fileID: 0}
@@ -136087,6 +136097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Shadows.m_Type
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406573888550787643, guid: e0a781c065b735b41a847089a684852f,
+        type: 3}
+      propertyPath: m_Name
+      value: flash Light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
